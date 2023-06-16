@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE HTML>
+
+<html lang="en-us">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/Theme.css' %}" />
+    <title>Landing</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Welcome to it!</h1>
+        <p class="description">
+            {{description}}
+        </p>
+        <a href="chat_page/" class="enter-button">Enter chat</a>
+    </div>
+</body>
+</html>
